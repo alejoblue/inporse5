@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 export const APP_NAME = "Grupo INPORSE";
 export const ADMIN_USERNAME = "administrador";
 export const ADMIN_PASSWORD = "InporseAdmin2024!";
+export const APP_LOGO = "./logo.png";
 
 export const INITIAL_DRIVERS: Omit<Driver, 'id' | 'isDeleted'>[] = [
   { name: 'Juan Pérez', contact: '555-1234', licenseNumber: 'A1234567', duiNumber: '0801-1980-12345', truckPlate: 'AAB 1234', observations: 'Experto en rutas largas.' },
