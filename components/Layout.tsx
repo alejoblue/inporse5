@@ -5,6 +5,7 @@ import { APP_NAME } from '../constants';
 import { UserRole, PermissionAction } from '../types';
 import { DashboardIcon, TruckIcon, UserGroupIcon, DocumentReportIcon, LogoutIcon, UsersIcon, EditIcon, BuildingOfficeIcon, ChartPieIcon } from './ui/Icons';
 import { Modal, Input, Button } from './ui/Common';
+import { APP_LOGO } from '../constants';
 
 
 const PasswordChangeModal: React.FC<{ isOpen: boolean; onClose: () => void }> = ({ isOpen, onClose }) => {
@@ -85,7 +86,7 @@ const Layout: React.FC = () => {
           <div className="h-16 flex items-center justify-center text-2xl font-bold text-white border-b border-slate-700">
 
             <img src={APP_LOGO} alt={APP_NAME} className="h-8" />
-            
+
           </div>
           <nav className="flex-1 px-4 py-4">
             <ul>
