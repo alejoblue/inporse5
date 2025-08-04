@@ -29,7 +29,7 @@ const Auth: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-100 flex flex-col justify-center items-center">
         <div className="text-4xl font-bold text-slate-800 mb-2 flex items-center gap-3">
-             <span className="text-5xl">🚚</span> {APP_NAME}
+           <img width="100" src={APP_LOGO} alt={APP_NAME} />
         </div>
         <p className="text-slate-600 mb-8">Sistema de Gestión de Fletes</p>
       <div className="max-w-md w-full bg-white p-8 rounded-xl shadow-lg">
