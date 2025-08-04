@@ -84,9 +84,7 @@ const Layout: React.FC = () => {
         {/* Sidebar */}
         <aside className="w-64 bg-slate-800 text-slate-100 flex flex-col no-print">
           <div className="h-16 flex items-center justify-center text-2xl font-bold text-white border-b border-slate-700">
-
             <img src={APP_LOGO} alt={APP_NAME} className="h-8" />
-
           </div>
           <nav className="flex-1 px-4 py-4">
             <ul>
