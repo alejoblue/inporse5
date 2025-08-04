@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { useAuth } from '../hooks/useAuth';
 import { APP_NAME } from '../constants';
+import { APP_LOGO } from '../constants';
 import { Button, Input } from './ui/Common';
 
 const Auth: React.FC = () => {
